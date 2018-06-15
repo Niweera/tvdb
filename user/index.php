@@ -7,7 +7,7 @@
         <div class="cover-container">
             <div class="masthead clearfix">
                 <div class="inner">
-                    <h2 class="masthead-brand"><a style="text-decoration:none" href="https://www.niwder.me">Niweera TVDB</a></h2>
+                    <h2 class="masthead-brand"><a style="text-decoration:none" href="https://www.niwder.me/tvdb">Niweera TVDB</a></h2>
                     <nav>
                       <ul class="nav masthead-nav">
                         <li class="active"><a href="./index.php">Insert</a></li>  
@@ -107,9 +107,9 @@
         $tvfrom = filter_input(INPUT_POST,'tvfrom');
         $tvto = filter_input(INPUT_POST,'tvto');
         
-        $sql = "INSERT INTO tvseries (tvname,showtype,remarks) VALUES ('$tvname','$showtype','$remarks');";
-        $sql .= "INSERT INTO storedin (pid,tvfrom,tvto,tvid) SELECT '$place' AS pid, '$tvfrom' AS tvfrom, '$tvto' AS tvto, tvid FROM tvseries WHERE tvname ='$tvname';";
-        $sql .= "INSERT INTO tvdict (link, tvid) SELECT '$link' AS link, tvid FROM tvseries WHERE tvname = '$tvname'";
+        $sql = "INSERT INTO tvseries (tvname,showtype,remarks) VALUES (\"$tvname\",'$showtype','$remarks');";
+        $sql .= "INSERT INTO storedin (pid,tvfrom,tvto,tvid) SELECT '$place' AS pid, '$tvfrom' AS tvfrom, '$tvto' AS tvto, tvid FROM tvseries WHERE tvname =\"$tvname\";";
+        $sql .= "INSERT INTO tvdict (link, tvid) SELECT \"$link\" AS link, tvid FROM tvseries WHERE tvname = \"$tvname\"";
         $mysqli_multi_query = mysqli_multi_query($conn,$sql);
         if (!$mysqli_multi_query){
                     echo "<script>alert(\"Error Occured!\");</script>";

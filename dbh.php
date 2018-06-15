@@ -1,9 +1,8 @@
 <?php
-$server = "ricky.heliohost.org";
-$username = "nipuna_guest";
-$password = "guest";
-$dbname = "nipuna_tvdb";
-
+$server = "niwder.me";
+$username = "root";
+$password = "srilanka";
+$dbname = "tvdb";
 $conn = mysqli_connect($server,$username,$password,$dbname);
 mysqli_set_charset($conn,"utf8");
 

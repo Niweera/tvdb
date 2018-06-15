@@ -1,9 +1,8 @@
 <?php
-$server = "ricky.heliohost.org";
-$username = "nipuna_1";
-$password = "Donatelo96";
-$dbname = "nipuna_tvdb";
-
+$server = "niwder.me";
+$username = "root";
+$password = "srilanka";
+$dbname = "tvdb";
 $conn = mysqli_connect($server,$username,$password,$dbname);
 
 if (!$conn) {

@@ -15,6 +15,7 @@
                   <li class="active"><a href="./">Home</a></li>  
                   <li><a href="./dmca.html">DMCA</a></li>
                   <li><a href="./help.html">Help</a></li>
+		  <li><a href="../">Blog</a></li>
                   <li><a href="./user">User</a></li>
                 </ul>
               </nav>

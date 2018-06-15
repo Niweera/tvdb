@@ -10,7 +10,7 @@
     <meta name="robots" content="index, follow">
     <meta name="contact" content="niweera@niwder.me">
     <meta name="author" content="Nipuna Weerasekara">
-    <link rel="icon" href="./favicon.ico">
+    <link rel="icon" href="./logo.jpg">
 
     <title>Niwder.me</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -322,6 +322,7 @@ a.socialIcon:hover, .socialHoverClass {
                   <li><a href="./">Home</a></li>  
                   <li><a href="./dmca.html">DMCA</a></li>
                   <li><a href="./help.html">Help</a></li>
+	          <li><a href="../">Blog</a></li>
                   <li><a href="./user">User</a></li>
                 </ul>
               </nav>
