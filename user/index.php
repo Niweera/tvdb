@@ -12,6 +12,7 @@
                       <ul class="nav masthead-nav">
                         <li class="active"><a href="./index.php">Insert</a></li>  
                         <li><a href="./update.php">Update</a></li>
+                        <li><a href="../login/logout.php">Log Out</a></li>
                       </ul>
                     </nav>
                 </div>

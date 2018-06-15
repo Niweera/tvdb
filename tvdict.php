@@ -323,7 +323,7 @@ a.socialIcon:hover, .socialHoverClass {
                   <li><a href="./dmca.html">DMCA</a></li>
                   <li><a href="./help.html">Help</a></li>
 	          <li><a href="../">Blog</a></li>
-                  <li><a href="./user">User</a></li>
+            <li><a href="./login/login.php">User</a></li>
                 </ul>
               </nav>
             </div>
