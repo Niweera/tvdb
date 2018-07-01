@@ -1,6 +1,6 @@
 <?php
     session_start(); 
-   
+    //added the php functionality to remove direct url access
     if(!isset($_SESSION['username'])){
         header('location: ../login/login.php');
     }
