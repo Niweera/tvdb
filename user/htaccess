@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "User"
-AuthUserFile "/home/nipuna/.htpasswds/public_html/user/passwd"
-require valid-user
