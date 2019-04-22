@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect('niwder.me', 'root', 'srilanka');
+$connection = mysqli_connect('localhost', 'root', 'srilanka');
 if (!$connection){
     die("Database Connection Failed" . mysqli_error($connection));
 }

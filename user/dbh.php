@@ -1,5 +1,5 @@
 <?php
-$server = "niwder.me";
+$server = "localhost";
 $username = "root";
 $password = "srilanka";
 $dbname = "tvdb";

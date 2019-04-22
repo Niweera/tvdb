@@ -16,7 +16,7 @@
         <div class="cover-container">
             <div class="masthead clearfix">
                 <div class="inner">
-                    <h2 class="masthead-brand"><a style="text-decoration:none" href="https://www.niwder.me/tvdb">Niweera TVDB</a></h2>
+                    <h2 class="masthead-brand"><a style="text-decoration:none" href="../">Niweera TVDB</a></h2>
                     <nav>
                       <ul class="nav masthead-nav">
                         <li><a href="./index.php">Insert</a></li>  
