@@ -12,7 +12,7 @@
     <meta name="author" content="Nipuna Weerasekara">
     <link rel="icon" href="./logo.jpg">
 
-    <title>Niwder.me</title>
+    <title>Niweera TVDB</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
